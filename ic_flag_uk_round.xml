@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Black outer circle -->
+    <path
+        android:pathData="M12,12m-12,0a12,12 0,1 1,24 0a12,12 0,1 1,-24 0"
+        android:fillColor="#000000"/>
+    <!-- White inner circle -->
+    <path
+        android:pathData="M12,12m-11,0a11,11 0,1 1,22 0a11,11 0,1 1,-22 0"
+        android:fillColor="#FFFFFF"/>
+    <!-- Blue background, clipped -->
+    <path
+        android:pathData="M12,12m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0"
+        android:fillColor="#012169"/>
+    <!-- The flag elements inside the inner circle -->
+    <group android:scaleX="0.83" android:scaleY="0.83" android:pivotX="12" android:pivotY="12">
+        <path
+            android:pathData="M12,12L2,2 M12,12l10,10 M12,12L2,22 M12,12l10,-10"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"/>
+        <path
+            android:pathData="M12,12l-8.5,-8.5 M12,12l8.5,8.5 M12,12l-8.5,8.5 M12,12l8.5,-8.5"
+            android:strokeWidth="1"
+            android:strokeColor="#C8102E"/>
+        <path
+            android:pathData="M12,2v20 M2,12h20"
+            android:strokeWidth="4"
+            android:strokeColor="#FFFFFF"/>
+        <path
+            android:pathData="M12,2v20 M2,12h20"
+            android:strokeWidth="2"
+            android:strokeColor="#C8102E"/>
+    </group>
+</vector>
